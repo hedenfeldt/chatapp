@@ -4,6 +4,7 @@ async function getMessages(){
     const list = document.getElementById('list')
     console.log(data)
     list.innerHTML = ''
+    
     for (let i =0; i < data.length; i++){
 const li = document.createElement('li')
 li.innerText = data[i].message
